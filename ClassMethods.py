@@ -9,6 +9,13 @@ class User_info:
         else:
             return False
 
+# We can use the new method (def check_username) to call the object and run the first method (User_info)
+
+user = UserInfo('user123', 'abc@edf.ghi')
+ 
+user.check_username('user123') # returns True
+user.check_username('user456') # returns False
+
 
 
 
