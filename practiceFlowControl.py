@@ -12,9 +12,9 @@ print_list_elements()
 import cv2
 from turtle import *
 
-def process_image(image_path):
+def process_image(/Users/amakki/Documents/Wigglz Premium Pet Food/Web Design_www.wigglz.co/IMG-20240615-WA0025.jpg):
     # Load the image
-    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread(/Users/amakki/Documents/Wigglz Premium Pet Food/Web Design_www.wigglz.co/IMG-20240615-WA0025.jpg, cv2.IMREAD_GRAYSCALE)
     # Threshold the image to binary
     _, binary = cv2.threshold(image, 128, 255, cv2.THRESH_BINARY_INV)
     # Find contours
