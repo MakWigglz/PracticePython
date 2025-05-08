@@ -1,0 +1,27 @@
+x1 = (-b + math.sqrt(b*2-(4*a*c))) // 2*a
+
+print(x1)
+2.0
+
+a=1
+
+b=2
+
+c=-3
+
+print(x1)
+2.0
+
+a=2
+
+b=1
+
+c=-1
+
+print(x1)
+2.0
+
+x2 = (-b-math.sqrt(b**2-(4*a*c))) // 2*a
+
+print(x2)
+-4.0
