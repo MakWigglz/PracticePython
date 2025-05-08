@@ -1,0 +1,25 @@
+import math
+
+x1 = float(input("enter x1: "))
+
+enter x1: 340.98
+
+y1 = float(input("enter y1: "))
+
+enter y1: 67.43
+
+ x2 = float(input("enter x2: "))
+
+enter x2: 835.689
+
+y2 = float(input("enter y2, please Mr. Mak the coder: "))
+
+enter y2, please Mr. Mak the coder: 100.00
+
+distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print("the distance is, dear Mr. Mak the great Coder, is ", distance)
+the distance is, dear Mr. Mak the great Coder, is  495.77999110593396
+
+round(distance)
+Out[8]: 496
